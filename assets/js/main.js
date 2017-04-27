@@ -1199,4 +1199,17 @@ var tareas = [
     "title": "ipsam aperiam voluptates qui",
     "completed": false
   }
-]
+];
+
+//function mostrar(){
+	//var contenedor = document.getElementById("contenedorTareas");
+	//contenedor.innerHTML = tareas.title;
+//}
+
+function mostrar(){
+	var contenedor = document.getElementById("contenedorTareas");
+	for (var i = 0; i < 10; i++) {
+	document.write(tareas[i].title + '<br>');
+}
+}
+mostrar();
