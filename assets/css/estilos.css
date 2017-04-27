@@ -12,6 +12,11 @@ ul {
 button{
 	background-color: #FF69B4;
 	color: #fff;
+	border-style: solid;
+	border-color: #fff;
+	border-radius: 50%;
+	height: 40px;
+	width: 100px;
 }
 img{
 	float: right;
