@@ -24,3 +24,9 @@ img{
 	margin-right: 20%;
 
 }
+input{
+	border-style: solid;
+	border-radius: 20px;
+	border-color: #FF69B4;
+	color: #FF69B4;
+}
