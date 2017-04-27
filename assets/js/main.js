@@ -1210,13 +1210,23 @@ function mostrar(){
 	var contenedor = document.getElementById("contenedorTareas");
 
 	var acumulador = [];
-	for (var i = 0; i < 10; i++) {
-	document.write('<div id = "contenedorTareas"><ul><li>'+tareas[i].title + '</li></ul></div>');
+		for (var i = 0; i < 10; i++) {
+		acumulador.push('<div id = "contenedorTareas"><ul><li>'+tareas[i].title + '</li></ul></div>');
+		}
+	document.write(acumulador.join(""));
 }
-}
+mostrar();
 
 function agregar(){
 	var agregar = document.getElementById('tareaNueva').value;
+	acumulador.push({
+        'userId': 10,
+        'title': textoNuevaTarea,
+        'completed': false
+    });
 
-}
-mostrar();
+    console.log(document.getElementById('tareaNueva').value);
+    var escribir = document.getElementById('tareaNueva').value;
+
+    document.getElementById('contenedorTareas').innerHTML = escribir;
+	}
