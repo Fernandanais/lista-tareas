@@ -1208,8 +1208,15 @@ var tareas = [
 
 function mostrar(){
 	var contenedor = document.getElementById("contenedorTareas");
+
+	var acumulador = [];
 	for (var i = 0; i < 10; i++) {
-	document.write(tareas[i].title + '<br>');
+	document.write('<div id = "contenedorTareas"><ul><li>'+tareas[i].title + '</li></ul></div>');
 }
+}
+
+function agregar(){
+	var agregar = document.getElementById('tareaNueva').value;
+
 }
 mostrar();
