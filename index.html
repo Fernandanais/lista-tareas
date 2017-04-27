@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/estilos.css">
 	<title>Lista de tareas</title>
 </head>
 <body>
-	<h1>La lista de tareas</h1>
+	<h1>La Lista de tareas</h1>
+	<img  src="assets/img/chek.jpg" alt="imagen de listas chequeadas"/>
 
 	<div id = "contenedorTareas">
-	<form id="frm1">
-		Tarea para agregar: <input type="text" name="tareaNueva" id="tareaNueva"><br>
-	</form> 
-	<button onclick="agregar()">Añadir tarea</button>
 	
+		Tarea para agregar: <input type="text" name="tareaNueva" id="tareaNueva">
+		<button onclick="agregar()">Añadir tarea</button>
+
+	<div class="masTareas"></div>
 	</div>
+
 	<script src="assets/js/main.js"></script>	
-						
+
 </body>
 </html>

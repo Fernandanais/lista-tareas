@@ -1218,15 +1218,18 @@ function mostrar(){
 mostrar();
 
 function agregar(){
-	var agregar = document.getElementById('tareaNueva').value;
+	var input = document.getElementById("tareaNueva");
+
+	var acum = document.getElementsByClassName("masTareas");
+
+	acum[0].innerHTML += "<ul><li>"+input.value +"</li><ul>";
+
+}
+
+/*function agregar(){
+	var agregars = document.getElementById('tareaNueva').value;
 	acumulador.push({
         'userId': 10,
         'title': textoNuevaTarea,
-        'completed': false
-    });
-
-    console.log(document.getElementById('tareaNueva').value);
-    var escribir = document.getElementById('tareaNueva').value;
-
-    document.getElementById('contenedorTareas').innerHTML = escribir;
-	}
+        'completed': false    });
+	}*/

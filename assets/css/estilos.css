@@ -1,0 +1,21 @@
+body{
+	background-color: #FFEBCD;
+	color: #4B0082;
+	font-family: arial;
+	margin-top: 5%;
+	margin-left: 10%;
+
+}
+ul {
+	color: #8A2BE2;
+}
+button{
+	background-color: #FF69B4;
+	color: #fff;
+}
+img{
+	float: right;
+	width : 25%;
+	margin-right: 20%;
+
+}
